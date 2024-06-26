@@ -1,0 +1,128 @@
+.icnIcon,
+.icnIcon1,
+.johnDoe140624 {
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.johnDoe140624 {
+  width: 473.7px;
+  line-height: 18px;
+  display: inline-block;
+  max-width: 100%;
+}
+.icnIcon,
+.icnIcon1 {
+  height: 32px;
+  width: 32px;
+  overflow: hidden;
+  min-height: 32px;
+}
+.likeIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.icnIcon2 {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.commentButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-8) 0 0;
+}
+.likeButton {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+  flex-shrink: 0;
+}
+.actionIcons,
+.likeButton,
+.userInfo {
+  display: flex;
+  align-items: flex-start;
+}
+.actionIcons {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) 0 0;
+}
+.userInfo {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.iSlipped {
+  margin: 0;
+}
+.snowSlipPublic {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.iSlippedSnowSlipContainer {
+  flex: 1;
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.postDescription {
+  width: 562.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--small-text-size);
+  color: var(--color-white);
+}
+.comments {
+  width: 297.4px;
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+  z-index: 1;
+}
+.postFooter,
+.profileInfo {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.profileInfo {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-12xs-1);
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-gray-100);
+  font-family: var(--text);
+}
+.postFooter {
+  width: 1406px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-22xl);
+  box-sizing: border-box;
+}
+@media screen and (max-width: 733px) {
+  .userInfo {
+    flex-wrap: wrap;
+  }
+}

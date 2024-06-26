@@ -1,0 +1,354 @@
+.safeSnap {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 96px;
+}
+.frameChild,
+.image3Icon {
+  position: absolute;
+  display: none;
+}
+.image3Icon {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.frameChild {
+  top: 348px;
+  left: 315px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+.image3Parent {
+  height: 670px;
+  flex: 1;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-width: 474px;
+  max-width: 100%;
+}
+.postPictureWithout {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  cursor: pointer;
+}
+.button {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-xl);
+  white-space: nowrap;
+  cursor: pointer;
+}
+.signInAccount {
+  margin: 0;
+  position: relative;
+  font-size: 24px;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  font-weight: 600;
+  font-family: var(--small-text);
+  color: var(--color-black);
+  text-align: center;
+}
+.signInEmail {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 55px;
+}
+.enterYourEmail {
+  position: relative;
+  font-size: var(--small-text-size);
+  line-height: 150%;
+  font-family: var(--small-text);
+  color: var(--color-black);
+  text-align: center;
+}
+.emailInput,
+.emailLabel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.emailLabel {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.emailInput {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 57px;
+}
+.frameItem {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  background-color: var(--color-gainsboro-100);
+}
+.separatorInner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs-5) 0 0;
+  box-sizing: border-box;
+  min-width: 84px;
+}
+.orContinueWith {
+  position: relative;
+  font-size: var(--small-text-size);
+  line-height: 150%;
+  font-family: var(--small-text);
+  color: var(--color-gray-200);
+  text-align: center;
+  display: inline-block;
+  min-width: 123px;
+}
+.frameInner {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  background-color: var(--color-gainsboro-100);
+}
+.separator,
+.separatorChild {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.separatorChild {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-xs-5) 0 0;
+  box-sizing: border-box;
+  min-width: 84px;
+}
+.separator {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.googleIcon1 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.googleIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.secondary {
+  position: relative;
+  font-size: var(--small-text-size);
+  line-height: 150%;
+  font-weight: 500;
+  font-family: var(--small-text);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 55px;
+}
+.button1 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: #eee;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 14px;
+  gap: 138.5px;
+}
+.byClickingContinue {
+  color: var(--color-gray-200);
+}
+.termsOfService {
+  color: var(--color-black);
+}
+.and {
+  color: var(--color-gray-200);
+}
+.privacyPolicy {
+  color: var(--color-black);
+}
+.byClickingContinueContainer,
+.register {
+  position: relative;
+  font-size: var(--small-text-size);
+  line-height: 150%;
+  font-family: var(--small-text);
+}
+.byClickingContinueContainer {
+  align-self: stretch;
+  text-align: center;
+}
+.register {
+  font-weight: 500;
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 64px;
+}
+.button2,
+.registerLink {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.button2 {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-black);
+  justify-content: flex-start;
+  padding: 6.5px var(--padding-49xl);
+  cursor: pointer;
+}
+.registerLink {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 30px;
+}
+.signInForm,
+.terms {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.terms {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 9px;
+}
+.signInForm {
+  margin: 0;
+  gap: var(--gap-5xl);
+}
+.signInContent,
+.signInContentWrapper,
+.signInForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.signInContent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: 59px;
+}
+.signInContentWrapper {
+  width: 400px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-base);
+  box-sizing: border-box;
+  min-width: 400px;
+}
+.frameParent {
+  width: 1203px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 73px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--small-text-size);
+  color: var(--color-white);
+  font-family: var(--small-text);
+}
+.auth,
+.authInner {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.authInner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-49xl);
+  max-width: 100%;
+}
+.auth {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-5xl) 176px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--body-text-size);
+  color: var(--color-black);
+  font-family: var(--small-text);
+}
+@media screen and (max-width: 1200px) {
+  .signInContentWrapper {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .authInner {
+    padding-left: var(--padding-15xl);
+    padding-right: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .image3Parent,
+  .signInContentWrapper {
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: 36px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .safeSnap {
+    font-size: var(--small-text-size);
+    line-height: 24px;
+  }
+  .signInAccount {
+    font-size: 19px;
+    line-height: 29px;
+  }
+  .emailInput,
+  .signInEmail {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .separator {
+    flex-wrap: wrap;
+  }
+  .signInContent {
+    gap: var(--gap-10xl);
+  }
+  .frameParent {
+    gap: 18px;
+  }
+}

@@ -1,0 +1,717 @@
+.unionIcon {
+  height: 2138px;
+  width: 538px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -1389px;
+  left: 336px;
+}
+.info {
+  text-decoration: none;
+  position: relative;
+  line-height: 18px;
+  color: inherit;
+  display: inline-block;
+  min-width: 29px;
+}
+.tab {
+  border-radius: var(--br-4xs);
+  background-color: var(--color-gray-500);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-29xl) var(--padding-xs);
+  cursor: pointer;
+}
+.info1 {
+  text-decoration: none;
+  position: relative;
+  line-height: 18px;
+  color: inherit;
+  display: inline-block;
+  min-width: 37px;
+}
+.tab1 {
+  border-radius: var(--br-4xs);
+  background-color: var(--color-gray-300);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-29xl) var(--padding-xs);
+}
+.info2 {
+  text-decoration: none;
+  position: relative;
+  line-height: 18px;
+  color: inherit;
+  display: inline-block;
+  min-width: 58px;
+}
+.tab2,
+.tabs {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tab2 {
+  border-radius: var(--br-4xs);
+  background-color: var(--color-gray-500);
+  padding: var(--padding-5xs) var(--padding-24xl) var(--padding-xs);
+  cursor: pointer;
+}
+.tabs {
+  margin: 0;
+  flex: 1;
+  gap: var(--gap-8xs);
+  min-width: 350px;
+  max-width: 100%;
+  white-space: nowrap;
+  text-align: left;
+  font-size: var(--small-text-size);
+  color: var(--color-white);
+  font-family: var(--text);
+}
+.follow {
+  text-decoration: none;
+  position: relative;
+  line-height: 18px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 64px;
+}
+.tab3 {
+  border-radius: var(--br-4xs);
+  background-color: var(--color-darkslategray-200);
+  border: 1px solid var(--color-dodgerblue-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-13xl) var(--padding-3xs)
+    var(--padding-14xl);
+  white-space: nowrap;
+}
+.sendIcon {
+  height: 38px;
+  width: 38px;
+  position: relative;
+  object-fit: cover;
+  min-height: 38px;
+}
+.tabParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.followerFollowingSeparator,
+.followers {
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+}
+.followerFollowingSeparator {
+  text-decoration: none;
+  font-weight: 600;
+  color: inherit;
+  min-width: 27px;
+}
+.followers {
+  font-size: var(--font-size-smi);
+  color: var(--color-gray-100);
+  min-width: 60px;
+}
+.followerFollowingSeparatorParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.a,
+.following {
+  text-decoration: none;
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+}
+.a {
+  font-weight: 600;
+  color: inherit;
+  min-width: 27px;
+}
+.following {
+  font-size: var(--font-size-smi);
+  color: var(--color-gray-100);
+  min-width: 61px;
+}
+.frameContainer,
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.frameContainer {
+  flex-direction: row;
+  gap: var(--gap-lgi);
+  color: var(--color-darkgray);
+}
+.moreIcon {
+  height: 38px;
+  width: 38px;
+  position: relative;
+  min-height: 38px;
+}
+.frameGroup,
+.frameWrapper,
+.tabsParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  flex-direction: row;
+  gap: var(--gap-10xl);
+}
+.frameWrapper,
+.tabsParent {
+  flex-direction: column;
+  padding: var(--padding-lg) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.tabsParent {
+  width: 992px;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-xl);
+  gap: var(--gap-4xl);
+  flex-shrink: 0;
+}
+.bgIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xl);
+  width: 100%;
+  height: 100%;
+}
+.imageOverlayIcon,
+.imagePlaceholderIcon {
+  position: absolute;
+  top: 548.5px;
+  left: 168px;
+  border-radius: var(--br-7xl);
+  width: 208px;
+  height: 192px;
+  object-fit: cover;
+  z-index: 1;
+}
+.imageOverlayIcon {
+  top: 758.5px;
+  left: 186px;
+  border-radius: var(--br-41xl);
+  width: 412px;
+  height: 248px;
+}
+.image1Icon,
+.image3Icon,
+.imageComponentsIcon {
+  position: absolute;
+  top: 292.5px;
+  left: 390px;
+  border-radius: var(--br-7xl);
+  width: 202px;
+  height: 202px;
+  object-fit: cover;
+  z-index: 1;
+}
+.image1Icon,
+.image3Icon {
+  top: 83.5px;
+  left: 394px;
+  width: 203.3px;
+}
+.image1Icon {
+  top: 91.5px;
+  left: 182px;
+  width: 198px;
+  height: 219px;
+}
+.bgParent {
+  width: 100%;
+  height: 1344.1px;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: -543.6px;
+  left: 0;
+}
+.hannahSmith {
+  text-decoration: none;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: inherit;
+  z-index: 1;
+}
+.hannahSmithWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xl);
+  font-size: var(--font-size-19xl);
+}
+.johnDoe {
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+  min-width: 85px;
+  z-index: 1;
+}
+.secondaryName {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xl) 5.8px;
+  color: var(--color-gray-100);
+}
+.hangout,
+.roadclosure,
+.snowslipped,
+.urbanfarming {
+  margin: 0;
+}
+.snowslippedRoadclosureUrbaContainer {
+  width: 149px;
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.child {
+  width: 202px;
+  height: 198px;
+  position: relative;
+  border-radius: var(--br-7xl);
+  object-fit: cover;
+}
+.div {
+  border: 1px solid var(--color-black);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.image9Icon {
+  align-self: stretch;
+  height: 248px;
+  position: relative;
+  border-radius: var(--br-7xl);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  display: none;
+}
+.emptyContent,
+.emptyContentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.emptyContent {
+  align-self: stretch;
+  height: 248px;
+  border-radius: var(--br-7xl);
+  background-image: url(/public/image-9@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 1;
+}
+.emptyContentWrapper {
+  flex: 1;
+  padding: 179px 0 0;
+  box-sizing: border-box;
+  min-width: 131px;
+}
+.frameWrapper1,
+.group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.group {
+  width: 432px;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+}
+.frameWrapper1 {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.imageContainer,
+.snowslippedRoadclosureUrbaParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.snowslippedRoadclosureUrbaParent {
+  width: 590px;
+  gap: 39px;
+  text-align: center;
+  font-family: var(--small-text);
+}
+.imageContainer {
+  align-self: stretch;
+  padding: 16.5px 0 49px;
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-27xl-6);
+  flex-shrink: 0;
+}
+.imagePlaceholdersIcon {
+  width: 202px;
+  height: 202px;
+}
+.imagePlaceholdersIcon,
+.imagePlaceholdersIcon1,
+.imagePlaceholdersIcon2 {
+  position: relative;
+  border-radius: var(--br-7xl);
+  object-fit: cover;
+}
+.imagePlaceholdersIcon1 {
+  width: 202px;
+  height: 198px;
+}
+.imagePlaceholdersIcon2 {
+  align-self: stretch;
+  height: 138px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.imageGrid,
+.imageRow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.imageRow {
+  align-self: stretch;
+  border: 1px solid var(--color-black);
+  gap: var(--gap-5xs);
+  z-index: 1;
+}
+.imageGrid {
+  flex: 1;
+  padding: 4px 0 0;
+  box-sizing: border-box;
+  min-width: 131px;
+}
+.doubleImagePlaceholders,
+.doubleImagePlaceholders1 {
+  align-self: stretch;
+  height: 248px;
+  position: relative;
+  border-radius: var(--br-7xl);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.doubleImageRow {
+  flex: 1;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  min-width: 131px;
+  z-index: 1;
+}
+.imageGridContainer,
+.imageGridContainerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.imageGridContainer {
+  width: 412px;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.imageGridContainerWrapper {
+  width: 712px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.data {
+  width: 1421.2px;
+  display: none;
+  max-width: 100%;
+}
+.imageContainerParent {
+  height: 1372px;
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 2.5px 0 569px;
+  box-sizing: border-box;
+  gap: 219px;
+  max-width: 100%;
+  z-index: 1;
+}
+.topActivityPerformers {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+}
+.listCard {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-200);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) var(--padding-4xl);
+  gap: var(--gap-5xs);
+}
+.communitiesYouMight {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+}
+.cardsContainer,
+.listCard1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.listCard1 {
+  height: 252px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  overflow-y: auto;
+  flex-shrink: 0;
+  padding: var(--padding-5xl) var(--padding-4xl) 0;
+  gap: var(--gap-5xs);
+}
+.cardsContainer {
+  gap: var(--gap-6xl);
+}
+.cardsContainerWrapper,
+.frameDiv,
+.frameParent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.cardsContainerWrapper {
+  width: 341px;
+  flex-direction: column;
+  padding: var(--padding-35xl) 0 0;
+  box-sizing: border-box;
+  min-width: 341px;
+  color: var(--color-black);
+  font-family: var(--small-text);
+}
+.frameDiv,
+.frameParent1 {
+  flex-direction: row;
+}
+.frameParent1 {
+  width: 1128px;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-8xl);
+  flex-shrink: 0;
+}
+.frameDiv {
+  align-self: stretch;
+  color: var(--color-white);
+}
+.feed2,
+.feed2Inner,
+.frameParent {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frameParent {
+  align-self: stretch;
+  height: 859px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 803px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--small-text-size);
+  color: var(--color-dodgerblue-100);
+  font-family: var(--text);
+}
+.feed2,
+.feed2Inner {
+  align-items: flex-start;
+}
+.feed2Inner {
+  width: 1151px;
+  flex-direction: column;
+  padding: var(--padding-mid) 0 0;
+  max-width: 100%;
+}
+.feed2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  flex-direction: row;
+  padding: var(--padding-5xl) var(--padding-5xs) 0;
+  gap: 44px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1350px) {
+  .imageContainerParent {
+    padding-top: var(--padding-xl);
+    padding-bottom: 370px;
+    box-sizing: border-box;
+  }
+  .frameParent {
+    padding-bottom: 522px;
+    box-sizing: border-box;
+  }
+  .feed2 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .imageContainerParent {
+    padding-bottom: 240px;
+    box-sizing: border-box;
+  }
+  .cardsContainerWrapper {
+    flex: 1;
+  }
+  .frameParent1 {
+    flex-wrap: wrap;
+  }
+  .frameParent {
+    padding-bottom: 339px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .tabsParent {
+    flex-wrap: wrap;
+  }
+  .hannahSmith {
+    font-size: var(--font-size-11xl);
+  }
+  .snowslippedRoadclosureUrbaParent {
+    gap: var(--gap-lgi);
+  }
+  .imageContainer {
+    gap: var(--gap-4xl);
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .imageContainerParent {
+    gap: 109px;
+    min-width: 100%;
+  }
+  .listCard {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .cardsContainerWrapper {
+    padding-top: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+  .frameParent {
+    height: auto;
+  }
+  .feed2 {
+    gap: 22px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .tabs {
+    min-width: 100%;
+  }
+  .frameGroup,
+  .tabs {
+    flex-wrap: wrap;
+  }
+  .hannahSmith {
+    font-size: var(--font-size-4xl);
+  }
+  .emptyContentWrapper {
+    padding-top: 116px;
+    box-sizing: border-box;
+  }
+  .group {
+    flex-wrap: wrap;
+  }
+  .imageContainer {
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .imageGridContainer {
+    flex-wrap: wrap;
+  }
+  .imageContainerParent {
+    height: auto;
+    gap: 55px;
+    padding-bottom: 156px;
+    box-sizing: border-box;
+  }
+  .listCard1 {
+    height: auto;
+  }
+  .cardsContainerWrapper {
+    padding-top: var(--padding-4xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .frameParent {
+    padding-bottom: 220px;
+    box-sizing: border-box;
+  }
+}

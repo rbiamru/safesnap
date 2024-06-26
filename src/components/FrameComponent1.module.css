@@ -1,0 +1,117 @@
+.icnIcon,
+.icnIcon1,
+.johnDoe140624 {
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.johnDoe140624 {
+  width: 473.7px;
+  line-height: 18px;
+  display: inline-block;
+  max-width: 100%;
+}
+.icnIcon,
+.icnIcon1 {
+  height: 32px;
+  width: 32px;
+  overflow: hidden;
+  min-height: 32px;
+}
+.doubleIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.icnIcon2 {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.singleIconButton {
+  flex-direction: column;
+  padding: var(--padding-10xs-8) 0 0;
+}
+.doubleIconParent,
+.frameWrapper,
+.singleIconButton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.doubleIconParent {
+  flex-direction: row;
+  gap: var(--gap-2xl);
+  flex-shrink: 0;
+}
+.frameWrapper {
+  flex-direction: column;
+  padding: var(--padding-2xs) 0 0;
+}
+.johnDoe140624Parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.iSlipped {
+  margin: 0;
+}
+.snowSlipPrivate {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.iSlippedSnowSlipContainer {
+  flex: 1;
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.iSlippedSnowSlipPrivateWrapper {
+  width: 562.5px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+  box-sizing: border-box;
+  font-size: var(--small-text-size);
+  color: var(--color-white);
+}
+.frameParent,
+.iSlippedSnowSlipPrivateWrapper,
+.maskBlurInner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-12xs-6);
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-gray-100);
+  font-family: var(--text);
+}
+.maskBlurInner {
+  width: 1406px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-22xl);
+  box-sizing: border-box;
+}
+@media screen and (max-width: 733px) {
+  .johnDoe140624Parent {
+    flex-wrap: wrap;
+  }
+}
